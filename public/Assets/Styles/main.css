@@ -1,0 +1,51 @@
+:root {
+  --bg: #0b0316;
+  --ink: #e9e6ff;
+  --muted: #b9b5d3;
+  --gold: #d4af37;
+  --veil: rgba(255, 255, 255, .06);
+  --veil-strong: rgba(255, 255, 255, .12);
+  --card: rgba(18, 9, 34, .72);
+  --gradient: radial-gradient(1200px 700px at 10% 10%, rgba(122, 77, 255, .12), transparent 60%),
+    radial-gradient(1100px 800px at 90% 30%, rgba(255, 210, 115, .10), transparent 60%),
+    radial-gradient(900px 600px at 50% 120%, rgba(98, 74, 255, .10), transparent 60%);
+}
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--ink);
+  background: var(--bg);
+  background-image: var(--gradient);
+  overflow-x: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  cursor: url("/Assets/Images/cursor.png") 0 0, auto;
+  width: 100%;
+}
+
+a,
+button,
+canvas {
+  cursor: url("/Assets/Images/pointer.png") 0 0, auto;
+}
+
+::-webkit-scrollbar {
+  width: 24px;
+}
+
+::-webkit-scrollbar-track {
+  background: #18002e38;
+}
+
+::-webkit-scrollbar-thumb {
+  background: url("/Assets/Images/chain.png") repeat-y center;
+  background-size: 20px 20px;
+  border-radius: 0;
+}

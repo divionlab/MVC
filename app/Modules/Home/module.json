@@ -1,0 +1,16 @@
+{
+  "name": "Home",
+  "version": "1.0",
+  "author": "Divion",
+  "routes": "Modules/Home/routes.php",
+  "assets": {
+    "css": [
+      "Modules/Home/Assets/Styles/home.css",
+      "Modules/Home/Assets/Styles/stl.css"
+    ],
+    "js": [
+      "Modules/Home/Assets/JavaScript/home.js"
+    ]
+  },
+  "enabled": true
+}
